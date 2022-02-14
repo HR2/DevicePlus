@@ -24,9 +24,9 @@ int pressureThreshold = 3000;//センサーが反応するしきい値
 WiFiUDP wifiUdp;//UDP通信のオブジェクトを生成
 
 //ネットワーク情報
-const char ssid[] = "Buffalo-G-068D"; //WiFIのSSIDを入力
-const char pass[] = "oPfTxJ39sX5Fd"; // WiFiのパスワードを入力
-const char *pc_addr = "192.168.11.43";//送信先のIPアドレス
+const char ssid[] = "XXXXXXXXX"; //WiFIのSSIDを入力
+const char pass[] = "XXXXXXXXX"; // WiFiのパスワードを入力
+const char *pc_addr = "XXX.XXX.XXX.XXX";//送信先のIPアドレス
 const int pc_port = 50001;//送信先のポート
 const int my_port = 50000;  //自身のポート
 
